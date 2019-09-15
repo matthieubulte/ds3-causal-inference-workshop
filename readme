@@ -1,0 +1,13 @@
+We have prepared some jupyter notebooks for you, which you will be able to work on during the session. We would therefore encourage you to install jupyter on your laptop (see below). Please try to get things working but if there are persistent problems, it suffices to find one colleague who has a running version of jupyter: you can work on the jupyter notebooks in groups of two.
+
+1. Essentially, there are the following two options to install jupyter:
+1A. Installation via anaconda. For details see the following link: https://www.continuum.io/blog/developer/jupyter-and-conda-r. Note that you need to install anaconda first, which includes python. If you are only interested in a minimal version of python, it is probably sufficient to install miniconda.
+1B. Installation via pip. If you already have a running version of python and pip you can also use pip to install jupyter (see the instructions at the bottom of the following link: http://jupyter.readthedocs.io/en/latest/install.html). In order for R to work you then also need to manually install the following R package "IRkernel" (see https://github.com/IRkernel/IRkernel/blob/master/README.md)
+
+2. Once you have a running version of jupyter, start it, e.g. by using
+jupyter notebook
+in your terminal. You can then check if everything is correctly set up by running setupNotebook.ipynb notebook (use the R kernel). This also tells you which additional R packages you should have installed. 
+
+3. Remind yourself on some R syntax:
+http://github.com/rstudio/cheatsheets/raw/master/source/pdfs/base-r.pdf
+
